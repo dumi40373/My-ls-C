@@ -1,31 +1,35 @@
-# My-Ls – Reproduction de la commande Unix `ls` en C
+# My-Ls – Reproduction of the Unix `ls` Command in C
 
 ## Description
 
-My-Ls est une re-implémentation de la commande Unix `ls`, développée en langage C.
-Le projet consiste à parcourir le contenu d’un répertoire, récupérer les données des fichiers et les afficher de manière formatée, en respectant le comportement de la commande originale.
+My-Ls is a re-implementation of the Unix `ls` command written in C.  
+The project consists of browsing the contents of a directory, retrieving file data, and displaying it in a formatted way while respecting the behavior of the original command.
 
-## Objectifs du projet
+## Project Goals
 
-- Comprendre la manipulation des répertoires en C
-- Utiliser les appels système Unix
-- Gérer les permissions et métadonnées des fichiers
-- Structurer un projet en respectant les normes EPITECH
+- Understand directory manipulation in C
+- Use Unix system calls
+- Manage file permissions and metadata
+- Structure a project while respecting EPITECH coding standards
 
-## Technologies utilisées
+## Technologies Used
 
-- Langage C
-- Appels système Unix (opendir, readdir, stat, etc.)
+- C language
+- Unix system calls (`opendir`, `readdir`, `stat`, etc.)
 - Makefile
 
-## Fonctionnalités implémentées
+## Implemented Features
 
-- Lecture du contenu d’un répertoire
-- Affichage des fichiers
-- Gestion des permissions
-- Récupération des informations via `stat`
-- Gestion des erreurs
+- Directory content reading
+- File listing display
+- Permission handling
+- Metadata retrieval using `stat`
+- Error handling
 
 ## Compilation
 
 make
+
+## Usage
+
+./my_ls -l include/
